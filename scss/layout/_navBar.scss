@@ -1,0 +1,21 @@
+
+
+#navBar{
+  box-shadow: 0 1px 10px 0 rgba($color: #cfc5c5, $alpha: 1);
+  color: $primary-color;
+  display: none; //scrolly=290
+}
+
+ul#mySidenav li a{
+  color: $primary-color;
+}
+ul#mySidenav li a:hover{
+  // border-bottom-style: solid; 
+  color: green;
+}
+
+
+.dash{
+  font-size: 0.8rem;
+}
+

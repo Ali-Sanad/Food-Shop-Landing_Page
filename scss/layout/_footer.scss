@@ -1,0 +1,41 @@
+.footer-social {
+  ul li {
+    display: inline-block;
+    // margin: 0.3rem;
+    text-decoration: none;
+    list-style: none;
+    width: 50px;
+    height: 50px;
+    i{
+        margin-top: 13px;
+
+    }
+    &:hover {
+      background-color: yellowgreen;
+
+      border-radius: 50%;
+      i {
+        color: white;
+      }
+    }
+  }
+}
+
+.scroll-top-arrow {
+  i {
+    margin-top: 9px;
+    margin-left: 14px;
+    color: wheat;
+  }
+  cursor: pointer;
+  position: fixed;
+  z-index: 120;
+  right: 20px;
+  bottom: 20px;
+
+  background-color: rgb(132, 184, 19);
+
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}

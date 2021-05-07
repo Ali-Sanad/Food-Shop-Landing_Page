@@ -1,0 +1,106 @@
+.featured-item-card {
+  border: solid 1px #eee;
+  padding: 20px;
+  margin-top: 30px;
+  transition: 0.5s ease;
+
+  &:hover {
+    border: solid 1px #79a207;
+    box-shadow: 1px 1px 15px #eee;
+    .item-img img {
+      transform: scale(1.1);
+    }
+    .item-img .item-overlay {
+      opacity: 1;
+    }
+    .item-detail .item-name {
+      color: #79a207;
+    }
+  }
+
+  .item-img {
+    overflow: hidden;
+    position: relative;
+    img {
+      width: 100%;
+      transition: 0.5s ease;
+      max-width: 100%;
+      height: auto;
+      vertical-align: middle;
+      border-style: none;
+    }
+    .item-overlay {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #39402640;
+      opacity: 0;
+      transition: 0.5s ease;
+      .item-btns {
+        .btn-view {
+          background-color: #f8f9faad;
+          color: #343a40;
+          border: solid 1px #f8f9fa;
+          border-radius: 0;
+          padding: 5px 10px;
+          font-weight: 400;
+          font-size: 18px;
+          text-decoration: none;
+          transition: 0.8s ease;
+        }
+        ///////////////
+        .btn-view:hover {
+          background-color: #79a207;
+          border: solid 1px #79a207;
+          color: #fff;
+        }
+     
+        ///////////////
+        .btn {
+          display: inline-block;
+          text-align: center;
+          vertical-align: middle;
+          user-select: none;
+          line-height: 1.5;
+        }
+      }
+    }
+  }
+
+  .item-detail {
+    display: block;
+    padding: 15px 0;
+    padding-bottom: 0;
+    .item-name {
+      font-size: 18px;
+      font-weight: 500;
+      transition: 0.5s ease;
+      margin-bottom: 0;
+    }
+    ul {
+      padding-left: 0;
+      margin-bottom: 0;
+
+      li {
+        list-style: none;
+        display: inline-block;
+        i {
+          color: #2d2d2d;
+          opacity: 0.8;
+        }
+      }
+    }
+
+    .item-price {
+      font-size: 20px;
+      font-weight: 500;
+      display: block;
+      margin-bottom: 0;
+    }
+  }
+}

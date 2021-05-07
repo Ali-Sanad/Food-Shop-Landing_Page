@@ -1,0 +1,91 @@
+.parallax {
+  height: 80vh;
+  background-image: url(/images/banner.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  // box-shadow: inset 0 0 0 100vh rgba(0, 0, 0, 0.88);
+  .overlay-white {
+    background-color: rgba(252, 252, 252, 0.9);
+    height: inherit;
+  }
+}
+////////////////////////////////////////////////
+
+.banner-heading {
+  color: #79a207;
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.banner-text {
+  color: #2d2d2d;
+  font-size: 20px;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  margin-bottom: 15px;
+  opacity: 0.7;
+}
+
+.content {
+  padding: 20px;
+  background-color: #fff;
+}
+.content > div {
+  display: inline-block;
+}
+
+.content .days,
+.hours,
+.minutes,
+.sec {
+  // padding: 20px;
+  width: 120px;
+
+  .num {
+    font-size: 55px;
+    color: #2d2d2d;
+    font-weight: 300;
+    // margin-bottom: 0;
+  }
+  .text {
+    color: #2d2d2d;
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
+.img-container img {
+  width: 350px;
+  height: 350px;
+}
+
+
+  .div-content {
+    @media only screen and (max-width:300px) {
+      object-fit: cover;
+      width: 400px;
+      height: 200px;
+     
+    }
+
+    @media only screen and (max-width:800px) {
+      object-fit: cover;
+      width: 400px;
+      height: 200px;
+     
+    }
+
+  }
+  .div-img {
+    @media only screen and (max-width:300px) {
+      width: 50px;
+      height: 50px;
+      
+    }
+    @media only screen and (max-width:800px) {
+      width: 50px;
+      height: 50px;
+      
+    }
+
+  }

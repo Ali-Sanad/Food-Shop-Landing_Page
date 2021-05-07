@@ -1,0 +1,37 @@
+.btn {
+  animation-delay: 2.5s;
+  animation-timing-function: eease-in-out;
+
+
+  button {
+    background-color: rgb(132, 184, 19);
+    color: white;
+    font-size: 1rem;
+    border-radius: 1.2rem;
+    padding: 0.5rem 1.5rem;
+    outline: none;
+    border: none;
+
+    &:hover {
+      background-color: black;
+    }
+  }
+}
+
+.about {
+  button {
+    background-color: white;
+    color: yellowgreen;
+    border: 1px solid greenyellow;
+    &:hover {
+    
+      background-color: rgb(132, 184, 19);
+      color: white;
+     
+    }
+  }
+}
+
+.image-holder:hover, .service-heading:hover{
+  color: greenyellow;
+}
