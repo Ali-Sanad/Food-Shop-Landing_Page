@@ -64,10 +64,6 @@ a {
     color: goldenrod;
     cursor: pointer; }
 
-.post-wraper {
-  margin-left: 25%;
-  width: 60%; }
-
 .post-footer {
   align-items: center; }
   .post-footer button {

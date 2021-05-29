@@ -1,30 +1,20 @@
 ////variables
-@import "./abstract/variables";
-@import "./abstract/function";
-@import "./abstract/mixin";
-  
+@import './abstract/variables';
+@import './abstract/function';
+@import './abstract/mixin';
+
 /////base
-@import "./base/rest";
+@import './base/rest';
 
 /////////components
-@import "./components/blog";   
-@import "./components/testimonial";   
-@import "./components/banner";   
-@import "./components/card";   
-@import "./components/btn";   
-@import "./components/serviceCard";   
-
+@import './components/blog';
+@import './components/testimonial';
+@import './components/banner';
+@import './components/card';
+@import './components/btn';
+@import './components/serviceCard';
 
 /////////////layout
-@import "./layout/navBar";
-@import "./layout/footer";
-@import "./layout/header";
-
-
-
-
-
-
-
-
-
+@import './layout/navBar';
+@import './layout/footer';
+@import './layout/header';
